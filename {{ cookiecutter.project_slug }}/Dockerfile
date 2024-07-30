@@ -1,7 +1,7 @@
 {% if cookiecutter.os == 'rockylinux' -%}
-FROM rockylinux:8.9
+FROM rockylinux:9.3
 {%- else -%}
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 {%- endif %}
 
 CMD ["/bin/bash"]
